@@ -1,0 +1,142 @@
+/* global */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'ralewayregular', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular.woff2') format('woff2'),
+         url('../fonts/raleway-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container .row{
+  padding:
+}
+
+
+.container .row::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* header */
+
+header{
+  width: 100%;
+  background-color: #000;  
+  height: 100px;
+}
+
+.nav-logo{
+  float: left;
+  padding: 16px 0;
+}
+
+.nav-logo a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+}
+
+.nav-logo span{
+  color: #26b9a6;
+}
+
+.menu{  
+  float: right;
+}
+
+.menu ul{
+  list-style: none;
+}
+
+.menu ul li{
+  display: inline;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+  padding: 0 25px;
+}
+
+.menu ul li:last-child a:last-child{
+  padding-right: 0;
+}
+
+/* dropdown menu */
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dropdown-menu a{
+  display: inline-block;
+}
+
+
+
+
+.dropdown .dropdown-menu{
+  position: absolute;
+  display: none;
+  height: 100px;
+  width: 100px;
+  background-color: #000;
+  
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-menu a{
+  display: block;
+  background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
