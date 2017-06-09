@@ -40,7 +40,7 @@ body{
 header{
   width: 100%;
   background-color: #000;  
-  height: 100px;
+  
 }
 
 .nav-logo{
@@ -52,6 +52,7 @@ header{
   text-decoration: none;
   color: #fff;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .nav-logo span{
@@ -75,20 +76,21 @@ header{
   color: #fff;
   font-weight: 900;
   padding: 0 25px;
+  text-transform: uppercase;
 }
 
 .menu ul li:last-child a:last-child{
   padding-right: 0;
 }
 
-/* dropdown menu */
+/* dropdown menu 
 
 .dropdown{
   position: relative;
   display: inline-block;
 }
 
-.dropdown .dropdown-menu a{
+.dropdown a{
   display: inline-block;
 }
 
@@ -113,6 +115,8 @@ header{
   background-color: #000;
 }
 
+
+*/
 
 
 
