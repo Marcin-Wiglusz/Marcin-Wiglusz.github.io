@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 body{
   font-family: 'ralewayregular', sans-serif;
 }
@@ -19,13 +20,13 @@ body{
 }
 
 .container{
-  width: 1000px;
+  width: 1100px;
   margin: 0 auto;
-  overflow: hidden;
+  overflow
 }
 
 .container .row{
-  padding:
+  width: 100%;
 }
 
 
@@ -54,8 +55,8 @@ header{
   text-transform: uppercase;
 }
 
-.nav-logo span{
-  color: #26b9a6;
+span{
+  color: #24ba9f;
 }
 
 .menu{  
@@ -82,54 +83,151 @@ header{
   padding-right: 0;
 }
 
-/* dropdown menu 
+/* dropdown menu */ 
 
-.dropdown{
+.row{
+  height:
+}
+
+li.dropdown{
   position: relative;
-  display: inline-block;
+  display: inline;
+  padding-bottom: 30px;/* wartość zwiększona, gdyż jadąc kursorem w dół od linka 'O FIRMIE' do wyświetlanej listy, dropdown-menu znikało mi. czy taki zabieg jest ok? czy można to jednak wykonać w mniej łopatologiczny sposób? */
 }
 
-.dropdown a{
-  display: inline-block;
-}
-
-
-
-
-.dropdown .dropdown-menu{
+li.dropdown  ul.dropdown-menu{
   position: absolute;
+  top: 48px;
+  right: -20px;
   display: none;
-  height: 100px;
-  width: 100px;
   background-color: #000;
+  padding: 10px 0 4px 0; 
+}
+
+li.dropdown  ul.dropdown-menu li a{
+  text-transform: none;
+  line-height: 30px;/* tylko w ten sposób mogłem powiększyć odstęp pomiędzy linkami. padding, margin dla a lub li w ogóle nie działały. jakiś pomysł, podpowiedź dlaczego? */
+  padding-left: 15px;
   
 }
 
-.dropdown:hover .dropdown-menu{
+li.dropdown:hover ul.dropdown-menu{
   display: block;
 }
 
-.dropdown-menu a{
+li.dropdown:hover .triangle{
   display: block;
-  background-color: #000;
+}
+
+.triangle{
+  position: absolute;
+  display: none;
+  top: 38px;
+  right: 48px;
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  
+  border-bottom: 10px solid #000;
 }
 
 
-*/
+
+/* slider section */
 
 
 
 
 
+.slider{
+  background-color: background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  margin-top: 133px;
+}
+
+.slider .container{
+  height: 
+}
+
+.left-btn, .chair-img, .chair-text, .right-btn{
+  float: left;
+  margin-bottom: 30px;
+}
+.left-btn, .right-btn{  
+  margin-top: 115px;  
+}
+
+.left-btn{
+  width: 4%;
+}
+
+.right-btn{
+  width: 10%;  
+}
+
+.chair-img{
+  background-image: url(../images/black_chair.png);
+  height: 337px;
+  width: 470px;
+  background-position: center;
+  background-size: 558px 400px;
+  width: 36%;  
+  background-repeat: no-repeat;
+}
+
+.left-btn a, .right-btn a{
+  font-size: 60px;
+  color: #24ba9f;
+  text-decoration: none;  
+}
+
+.right-btn {
+  text-align: right;
+}
+
+.chair-text{
+  width: 50%;
+}
+
+h1{
+  text-transform: uppercase;
+  padding-left: 80px;
+  font-size: 42px;
+  margin-bottom: 18px;
+}
+
+
+.chair-paragraph{
+  text-align: center;
+  padding: 3px 50px;
+  line-height: 25px;
+}
+
+.button{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button-link{
+  background-color: #24ba9f;
+  height: 42px;
+  width: 244px;
+  color: #fff;
+  font-size: 22px;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
 
 
 
-
-
-
-
-
-
+.row div{
+  
+}
 
 
 
