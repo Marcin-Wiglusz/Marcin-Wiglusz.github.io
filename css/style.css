@@ -22,7 +22,7 @@ body{
 .container{
   width: 1100px;
   margin: 0 auto;
-  overflow
+  /* overflow: hidden; nie wyświetla się dropdown */
 }
 
 .container .row{
@@ -36,7 +36,10 @@ body{
   display: block;
 }
 
+
 /* header */
+
+
 
 header{
   width: 100%;
@@ -83,11 +86,11 @@ span{
   padding-right: 0;
 }
 
+
+
 /* dropdown menu */ 
 
-.row{
-  height:
-}
+
 
 li.dropdown{
   position: relative;
@@ -108,6 +111,7 @@ li.dropdown  ul.dropdown-menu li a{
   text-transform: none;
   line-height: 30px;/* tylko w ten sposób mogłem powiększyć odstęp pomiędzy linkami. padding, margin dla a lub li w ogóle nie działały. jakiś pomysł, podpowiedź dlaczego? */
   padding-left: 15px;
+  padding-right: 20px;
   
 }
 
@@ -127,8 +131,7 @@ li.dropdown:hover .triangle{
   width: 0; 
   height: 0; 
   border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  
+  border-right: 10px solid transparent;  
   border-bottom: 10px solid #000;
 }
 
@@ -224,10 +227,123 @@ h1{
 }
 
 
+/* chairs section */
 
-.row div{
-  
+
+.chairs{
+  width: 100%;
+  background-color: #fff;
 }
+
+.chairs .container .row{
+  padding-top: 30px;
+}
+
+
+.clair-chair, .margarita-chair, .inputs-text{
+  float: left;  
+}
+
+.clair-chair, .margarita-chair{
+  width: 30%
+}
+
+
+.clair-chair{
+  background-image: url(../images/box1_img.jpg);
+  position: relative; 
+  margin-right: 1.3636%;
+}
+
+.margarita-chair{
+  background-image: url(../images/box2_img.jpg);
+  position: relative;  
+  margin: 0 1.3636% 0 1.3636%;
+}
+
+
+.clair-chair .inner-chair a, .margarita-chair .inner-chair a{  
+  color: #000;
+  text-decoration: none;
+}
+
+.clair-chair, .margarita-chair{
+  height: 226px;  
+}
+
+.clair-chair .inner-chair h4{
+  border-bottom: 8px solid #24ba9f;
+  padding: 0 5px 0 5px;
+  margin-top: 15px;
+}
+
+.margarita-chair .inner-chair h4{
+  border-bottom: 8px solid #24ba9f;
+  margin-top: 15px;
+}
+
+.inner-chair {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  position: absolute;
+  bottom: 12px;
+  padding: 0 175px 0 15px;
+}
+
+.inputs-text h4{
+  border-bottom: 8px solid #24ba9f;
+  width: 40%;
+  padding-top: 8px;
+  margin-bottom: 15px;
+}
+
+.inputs-text{
+  width: 34.55%;
+  margin-left: 1.3636%;
+  border: 1px solid #c2c2c2;
+  padding: 0 20px 20px;;
+  line-height: 22px;
+}
+
+.inputs-text p{
+  color: #555;
+}
+
+.inputs-second{
+  padding-top: 5px;
+}
+
+/*
+.chairs .container .row div{
+  border: 1px solid red;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
