@@ -290,19 +290,19 @@ h1{
   padding: 0 175px 0 15px;
 }
 
-.inputs-text h4{
-  border-bottom: 8px solid #24ba9f;
-  width: 40%;
-  padding-top: 8px;
-  margin-bottom: 15px;
-}
-
 .inputs-text{
   width: 34.55%;
   margin-left: 1.3636%;
   border: 1px solid #c2c2c2;
   padding: 0 20px 20px;;
   line-height: 22px;
+}
+
+.inputs-text h4{
+  border-bottom: 8px solid #24ba9f;
+  width: 40%;
+  padding-top: 8px;
+  margin-bottom: 15px;
 }
 
 .inputs-text p{
@@ -313,11 +313,203 @@ h1{
   padding-top: 5px;
 }
 
-/*
-.chairs .container .row div{
-  border: 1px solid red;
+
+
+
+/* price section */
+/* global */
+
+
+.price{
+  width: 100%;
+  background-color: #f1f1f1;
+  padding-top: 25px;
+  margin-top: 60px;
 }
-*/
+
+.price-list h3{
+  color: #555;
+  text-transform: uppercase;
+  border-bottom: 8px solid #24ba9f;
+  width: 31%;
+}
+
+.price-list{
+  margin-bottom: 80px;
+}
+
+.basic, .standard, .advanced{
+  height: 500px;
+  width: 31.51%;
+  float: left;
+  position: relative;
+  background-color: #f9f9f9;
+  border: 2px solid #c2c2c2;  
+}
+
+.ring{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -28px;
+  top: -39px;
+  background-color: #fff;
+  border: 2px solid #c2c2c2;
+}
+
+.circle{
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #c2c2c2;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+h2{
+  text-transform: uppercase;
+  color: #24ba9f;
+  text-align: center;
+  margin: 30px;
+}
+
+.price-circle{
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -64px;
+  background-color: #fff;
+  padding-top: 12px;
+  border: 2px solid #c2c2c2;
+}
+
+.price-circle h1{
+  color: #c2c2c2;
+  text-align: center;
+  padding-left: 0;
+  line-height: 25px;
+}
+
+sup{
+  font-size: 20px;
+  vertical-align: super;
+}
+
+.pln{
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #c2c2c2;
+}
+
+.plan-div{
+  margin-top: 200px;
+  text-align: center;
+}
+
+.plan-div p{
+  margin: 0;
+  padding: 10px 0;
+  color: #919191;
+  font-weight: bold;
+}
+
+.darkgreyP{
+  background-color: #e4e4e4;
+}
+
+.lightgreyP{
+  background-color: #f1f1f1;
+}
+
+.signIn-btn-div{ 
+  position: absolute;
+  left: 50%;
+  margin-left: -61px;
+  bottom: 10px;
+}
+
+.signIn-btn{
+ background-color: #24ba9f;
+ height: 34px;
+ width: 122px;
+ color: #fff;
+ font-size: ;
+ border: none;
+ border-radius: 8px;
+ text-transform: uppercase;
+ 
+}
+
+/*basic*/
+
+
+.basic{
+  margin-right: 1.3636%; 
+}
+
+.basic{
+  margin-bottom: 50px;
+}
+
+
+/*standard*/
+
+.standard{
+  margin: 0 1.3636% 0 1.3636%;
+  background-color: #27c7ab;
+  border: 2px solid #27c7ab;
+}
+
+.standard .ring{
+  background-color: #27c7ab;
+  border: 2px solid #27c7ab;
+}
+
+.standard .circle{
+  background-color: #fff;
+}
+
+.standard h2{
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin: 30px;
+}
+
+.standard .price-circle{
+  background-color: #f9f9f9;
+  padding-top: 12px;
+  border: 2px solid #f9f9f9;
+}
+
+.standard .price-circle h1{
+  color: #27c7ab;
+}
+
+.standard .price-circle h1 span{
+  color: #27c7ab;
+}
+
+.whiteP{
+  background-color: #fff;
+}
+
+.standard .signIn-btn{
+ background-color: #fff; 
+ color: #27c7ab; 
+}
+
+
+/*advanced*/
+
+.advanced{
+  margin-left: 1.3636%;
+}
 
 
 
@@ -333,19 +525,10 @@ h1{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+.price .container .row div{
+  border: 2px solid #c2c2c2;
+}*/
 
 
 
