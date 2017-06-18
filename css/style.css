@@ -227,7 +227,7 @@ h1{
 }
 
 
-/* chairs section */
+/*//////////////////////////////////// chairs section //////////////////////////////////////*/
 
 
 .chairs{
@@ -316,14 +316,14 @@ h1{
 
 
 
-/* price section */
+/*/////////////////////////////////////// price section /////////////////////////////////////////*/
 /* global */
 
 
 .price{
   width: 100%;
   background-color: #f1f1f1;
-  padding-top: 25px;
+  padding: 25px 0 50px 0;
   margin-top: 60px;
 }
 
@@ -344,7 +344,8 @@ h1{
   float: left;
   position: relative;
   background-color: #f9f9f9;
-  border: 2px solid #c2c2c2;  
+  border: 2px solid #c2c2c2;
+  border-radius: 2px;
 }
 
 .ring{
@@ -416,6 +417,7 @@ sup{
   padding: 10px 0;
   color: #919191;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .darkgreyP{
@@ -438,29 +440,26 @@ sup{
  height: 34px;
  width: 122px;
  color: #fff;
- font-size: ;
+ font-size: 16px;
  border: none;
  border-radius: 8px;
  text-transform: uppercase;
  
 }
 
-/*basic*/
+/*//////////////////basic div////////////////////*/
 
 
 .basic{
   margin-right: 1.3636%; 
 }
 
-.basic{
-  margin-bottom: 50px;
-}
 
 
-/*standard*/
+/*//////////////////standard div////////////////////*/
 
 .standard{
-  margin: 0 1.3636% 0 1.3636%;
+  margin: 0 2.7272% 0 1.3636%;
   background-color: #27c7ab;
   border: 2px solid #27c7ab;
 }
@@ -505,31 +504,143 @@ sup{
 }
 
 
-/*advanced*/
+///////////////////////*advanced div*///////////////////
 
-.advanced{
-  margin-left: 1.3636%;
+
+
+
+
+/*///////////////////////////////////// section contact-form ////////////////////////////////*/
+
+.contact-form{
+  width: 100%;
+  background-color: #fff;
+}
+
+.contact-form h3{
+  color: #555;
+  text-transform: uppercase;
+  border-bottom: 8px solid #24ba9f;
+  width: 31%;
+}
+
+.contact-input, .red-chair{
+  float: left;
+  height: 400px;
+}
+
+/*////////////////// contact input /////////////////////*/
+
+.contact-input{
+  width: 60%;
+}
+
+.contact-input input, .contact-input textarea{
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #24ba9f;
+  border-radius: 1px;
+}
+
+.contact-input textarea{
+  height: 195px;
+  resize: none;
+  overflow: hidden; /*?*/
+}
+
+input, optgroup, select, textarea{
+  font-family: 'ralewayregular', sans-serif;
+  font-size: 30px;
+}
+
+/*////////////////// placeholder text color //////////////*/
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #c9c9c9;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #c9c9c9;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #c9c9c9;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #c9c9c9;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #c9c9c9;
 }
 
 
+/*//////////////// red-chair div //////////////////////*/
 
+.red-chair{
+  width: 40%;
+  padding-left: 70px;
+  margin-top: -20px;
+}
 
+.red-chair .chair{
+  background-image: url(../images/red_chair.png);
+  height: 190px;
+  background-size: contain;
+  background-position: 35px 0;
+  background-repeat: no-repeat;
+}
 
+.check-box-img, .check-box-text{
+  float: left;
+  margin-top: 30px;
+}
 
+.check-box-text{
+  width: 86,837%;
+  height: 48px;
+  color: #C2C2C2;
+  font-size: 20px;
+  padding: 5px 0 0 15px;
+  line-height: 20px;
+}
 
+.check-box-img{
+  border: 1px solid #24ba9f;
+  background-image: url(../images/form_ok.jpg);
+  height: 48px;
+  width: 13.163%;
+  background-position: -2px 4px;
+  background-repeat: no-repeat;
+  border-radius: 1px;
+}
 
+.confirm-btn{
+  clear: both;
+  padding-top: 35px;
+}
 
+.confirm-btn input{
+  width: 95%;
+  height: 65px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #24BA9F;
+  border: none;
+  margin-top: 5px;
+  
+}
 
-
-
-
-
+.confirm-btn a input{
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+}
 
 /*
-.price .container .row div{
-  border: 2px solid #c2c2c2;
-}*/
-
+.contact-form .container .row div{
+  border: 1px solid red;
+}
+*/
 
 
 
