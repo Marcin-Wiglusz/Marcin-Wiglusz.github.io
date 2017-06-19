@@ -1,22 +1,18 @@
 /* global */
 
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
 *{
   box-sizing: border-box;
 }
 
-
-body{
-  font-family: 'ralewayregular', sans-serif;
-}
-
-
-@font-face {
-    font-family: 'ralewayregular';
-    src: url('../fonts/raleway-regular.woff2') format('woff2'),
-         url('../fonts/raleway-regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+input[type=button]{
+  cursor: pointer; 
+  cursor: hand; 
 }
 
 .container{
@@ -522,6 +518,7 @@ sup{
   text-transform: uppercase;
   border-bottom: 8px solid #24ba9f;
   width: 31%;
+  padding-top: 20px;
 }
 
 .contact-input, .red-chair{
@@ -549,7 +546,7 @@ sup{
 }
 
 input, optgroup, select, textarea{
-  font-family: 'ralewayregular', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
 }
 
@@ -636,11 +633,46 @@ input, optgroup, select, textarea{
   font-weight: 900;
 }
 
-/*
-.contact-form .container .row div{
-  border: 1px solid red;
+
+/*//////////////////////////// footer ///////////////////////////////////////////////////////*/
+
+footer{
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 40px;
+  padding-top: 30px;
 }
-*/
+
+.copy-rights{
+  float: left;
+  color: #8b8b8b;
+  padding-top: 17px;
+  font-size: 14px;
+}
+
+.social-icons{
+  float: right;
+  padding-right: 110px;
+}
+
+.sit-on-chair{
+  float: right;  
+  padding-top: 17px;
+}
+
+.sit-on-chair a{
+  text-transform: uppercase;
+  color: #8b8b8b;
+  text-decoration: none;
+}
+
+.foot-span{
+  font-weight: bolder;
+  color: #8b8b8b;
+}
+
+
+
 
 
 
