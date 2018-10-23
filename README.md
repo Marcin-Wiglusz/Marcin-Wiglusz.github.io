@@ -1,8 +1,6 @@
 # Sit-on-Chair-Project
-First 'Sit on Chair' project - plain HTML/CSS
+First steps in html and css at CodersLab bootcamp
 
-
-Visit my project at:
 https://marcin-wiglusz.github.io/Sit-on-chair/
 
 
